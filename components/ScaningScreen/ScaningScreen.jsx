@@ -1,12 +1,11 @@
 import React, { Component } from 'react'
 import { Text, View } from 'react-native'
-import { CameraView } from 'expo-camera';
 
-export default class Cart extends Component {
+export default class ScaningScreen extends Component {
   render() {
     return (
       <View>
-        <Text> cartt </Text>
+        <Text> textInComponent </Text>
       </View>
     )
   }
